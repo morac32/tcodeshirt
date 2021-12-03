@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<title>All products for T-codeshirt</title>
+    	<meta name="description" content="">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="styles.css">
+    	<link rel="stylesheet" href="contact-form.css">
+    	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">Apparel</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact-form.html">Contact</a></li>
+						<li><a href="account.html">Account</a></li>
+						<li class="cart">
+							<a href="cart.html">
+								<ion-icon name="basket"></ion-icon>Cart<span>0</span>
+							</a> 
+						</li>       	
+					</ul>
+				</nav>
+				
+				<img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+			</div>
+		</div>
+	
+	
+<!-------- contact form ----------->
+		<div class="wrapper">
+		    <header>Send us a Message</header>
+		    <form action="message.php">
+		      <div class="dbl-field">
+		        <div class="field">
+		          <input type="text" name="name" placeholder="Enter your name">
+		          <i class='fas fa-user'></i>
+		        </div>
+		        <div class="field">
+		          <input type="text" name="email" placeholder="Enter your email">
+		          <i class='fas fa-envelope'></i>
+		        </div>
+		      </div>
+		      <div class="dbl-field">
+		        <div class="field">
+		          <input type="text" name="phone" placeholder="Enter your phone">
+		          <i class='fas fa-phone-alt'></i>
+		        </div>
+		        <div class="field">
+		          <input type="text" name="website" placeholder="Enter your website">
+		          <i class='fas fa-globe'></i>
+		        </div>
+		      </div>
+		      <div class="message">
+		        <textarea placeholder="Write your message" name="message"></textarea>
+		        <i class="material-icons">message</i>
+		      </div>
+		      <div class="button-area">
+		        <button type="submit">Send Message</button>
+		        <span></span>
+		      </div>
+		  </form>
+		</div>
+	
+<!------------- footer ------------>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download our App</h3>
+						<p>Download App for iOS and Android mobile phone.</p>
+						<div class="app-logo">
+							<img src="img/play-store.png">
+							<img src="img/app-store.png">
+						</div>
+					</div>
+					<div class="footer-col-2">
+						<img src="img/logo-white.png" alt="">
+						<p>Download App for iOS and Android mobile phone.</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Useful Links</h3>
+						<ul>
+							<li>Coupons</li>
+							<li>Blog Post</li>
+							<li>Return Policy</li>
+							<li>Join Affiliate</li>
+						</ul>
+					</div>
+					<div class="footer-col-4">
+						<h3>Follow Us</h3>
+						<ul>
+							<li>Facebook</li>
+							<li>Instagram</li>
+							<li>Twitter</li>
+							<li>YouTube</li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+				<p class="Copyright">Copyright 2021 - E commerce project</p>
+			</div>
+		</div>
+<!------- js for toggle menu ------->
+		<script src="index.js"></script>
+		<script src="contact-form.js"></script>
+<!--for shoppingcart ion-icon script--->
+	    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!------- cart.js --------------->
+		<script src="cart.js"></script>
+
+</body>
+</html>
